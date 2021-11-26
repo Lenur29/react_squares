@@ -1,4 +1,4 @@
-const url = 'http://demo1030918.mockable.io/';
+const url = 'https://demo1030918.mockable.io/';
 
 export const getData = () => {
   return fetch(url)
