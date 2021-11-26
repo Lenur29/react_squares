@@ -1,0 +1,68 @@
+.app {
+  display: flex;
+  gap: 20px;
+
+  &__header {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__selector {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 150px;
+    border-radius: 3px;
+  }
+
+  &__button {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid rgb(68, 218, 210);
+    color: rgb(68, 218, 210);
+    border-radius: 3px;
+    padding: 5px 15px;;
+    height: 29px;
+
+    &:hover {
+      background: linear-gradient(to bottom, #91eae4, #86a8e7, #7f7fd5);
+      border-radius: 2px;
+      border: none;
+      color: #fff;
+    }
+  }
+}
+
+.field {
+  border-collapse: collapse;
+
+  &__cell {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: #fff;
+
+    &--selected {
+      background-color: blue;
+    }
+  }
+}
+
+.popups {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  height: 700px;
+  flex-wrap: wrap;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #fbf8e3;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+}
