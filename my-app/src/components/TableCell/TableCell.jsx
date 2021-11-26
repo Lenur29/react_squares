@@ -5,8 +5,6 @@ import classNames from 'classnames';
 const TableCell = ({ cell, row, onCreatePopup }) => {
   const [selected, setSelected] = useState(false);
 
-  console.log('rendering tablecell');
-
   const changeCellColor = () => {
     if (selected) {
       setSelected(false);
